@@ -54,11 +54,9 @@ public class IFTTT_Test {
     public String resultFileName;
     @Test
     public void testRuns() throws Exception {
-
         File ArchiveFolder = new File("C:\\Users\\310287808\\AndroidStudioProjects\\AnkitasTrial\\Archive");
         File OldFile = new File("C:\\Users\\310287808\\AndroidStudioProjects\\AnkitasTrial\\");
         File[] oldFiles = OldFile.listFiles();
-
         Calendar cal = Calendar.getInstance();
         SimpleDateFormat sdf  = new SimpleDateFormat("MM-dd");
         Currentdate = sdf.format(cal.getTime());
